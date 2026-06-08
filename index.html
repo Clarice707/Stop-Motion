@@ -11,8 +11,12 @@
 </head>
 <body>
 
-<header>
-    <h1>🎬Stop Motion</h1>
+<header class="header-container">
+    <h1>🎬 Stop Motion</h1>
+
+    <button id="themeToggle" class="btn btn-sm btn-outline-light">
+        🌙 Modo escuro
+    </button>
 </header>
 
    <!--MENU DE NAVEGAÇÃO-->
@@ -187,6 +191,7 @@
     <figure>
         <img src="img/coraline.jpg" class="img-fluid" alt="Pôster do filme Coraline e o Mundo Secreto">
         <figcaption>Coraline e o Mundo Secreto</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
 
@@ -194,6 +199,7 @@
     <figure>
         <img src="img/o-estranho-mundo-de-jack.jpg"  class="img-fluid" alt="Pôster do filme O Estranho Mundo de Jack">
         <figcaption>O Estranho Mundo de Jack</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
 
@@ -201,6 +207,7 @@
     <figure>
         <img src="img/a-noiva-cadáver-poster.jpg" class="img-fluid" alt="Pôster do filme A Noiva Cadáver">
         <figcaption>A Noiva Cadáver</figcaption>
+         <span class="favorito">❤</span>
     </figure>
   
 
@@ -208,6 +215,7 @@
     <figure>
         <img src="img/Frankenweenie.jpg" class="img-fluid" alt="Pôster do filme Frankenweenie">
         <figcaption>Frankenweenie</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
 
@@ -216,63 +224,82 @@
         <figcaption>
     Pinóquio<br>
     <small>Guillermo del Toro</small></figcaption>
+        <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/James-e-o-pêssego-gigante.jpg" class="img-fluid" alt="Pôster do filme James e o Pêssego Gigante">
         <figcaption>James e o Pêssego Gigante</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
     <figure>
         <img src="img/mary-and-max.jpg" class="img-fluid" alt="Pôster do filme Mary And Max">
         <figcaption>Mary & Max</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/Wendell-e-wild.jpg" class="img-fluid" alt="Pôster do filme wendell e wild">
         <figcaption>Wendell & Wild</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/minha-vida-dabobrinha.jpg" class="img-fluid" alt="Pôster do filme Minha vida de Abobrinha">
         <figcaption>Minha Vida de Abobrinha</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/king-kong-1933.jpg" class="img-fluid" alt="Pôster do filme king kong de 1933">
         <figcaption>King Kong(1933)</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
     <figure>
         <img src="img/Kubo-e-as-cordas-mágicas.jpg" class="img-fluid" alt="Pôster do filme kubo e as cordas mágicas">
         <figcaption>Kubo e as cordas Mágicas</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
     <figure>
         <img src="img/a-casa-lobo.jpg" class="img-fluid" alt="Pôster do filme A Casa Lobo">
         <figcaption>A Casa Lobo</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
     <figure>
         <img src="img/o-pequeno-principe.jpg" class="img-fluid" alt="Pôster do filme O pequeno Príncipe">
         <figcaption>O Pequeno Príncipe</figcaption>
+         <span class="favorito">❤</span>
     </figure>
 
     <figure>
         <img src="img/o-fantastico-senhor-raposo.jpg" class="img-fluid" alt="Pôster do filme O Fantástico Senhor Raposo">
         <figcaption>O Fantástico Senhor Raposo</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/ilha-dos-cachorros2.webp" class="img-fluid" alt="Pôster do filme Ilha dos Cachorros">
         <figcaption>Ilha dos Cachorros</figcaption>
+         <span class="favorito">❤</span>
     </figure>
     
     <figure>
         <img src="img/shaun-o-carneiro.jpg" class="img-fluid" alt="Pôster do Filme Shaun: O Carneiro">
         <figcaption>Shaun: O Carneiro</figcaption>
+         <span class="favorito">❤</span>
+    </figure>
+
+    <figure>
+        <img src="img/my-melody-&-kuromi.jpg" alt="Pôster do seriado My Melody & Kuromi">
+        <figcaption>My Melody & Kuromi</figcaption>
+         <span class="favorito">❤</span>
     </figure>
    
+    
 
 </div>
 </section>
@@ -304,7 +331,7 @@ Personagens são recortados em forma de sombra, geralmente vistos contra uma luz
 <section id="Trailer">
     <h2>Trailer do Filme Coraline</h2>
 
-    <p>Confira o trailer do filme Coraline e o Mundo Secreto, uma das obras mais famosas em stop motion, dirigido por Henry Selick!</p>
+    <p>Confira o trailer do filme Coraline e o Mundo Secreto, uma das obras mais renomadas em toda a história do stop motion, dirigido por Henry Selick!</p>
 
     <figure>
         <video controls class="w-100" aria-label="Trailer do filme Coraline">
@@ -385,5 +412,7 @@ Personagens são recortados em forma de sombra, geralmente vistos contra uma luz
 </footer>
 <section></section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
